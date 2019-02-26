@@ -11,7 +11,8 @@ import { UserDetailsComponent } from './3-user-details/user-details.component';
 import { VoterComponent } from './1-voter/voter.component';
 
 import { UsersComponent } from './users/users.component';
-import { HighlightDirective } from './highlight.directive'; 
+import { HighlightDirective } from './highlight.directive';
+import { NavComponent } from './nav/nav.component'; 
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HighlightDirective } from './highlight.directive';
     UserDetailsComponent,
     VoterComponent,
     UsersComponent,
-    HighlightDirective
+    HighlightDirective,
+    NavComponent
   ],
   imports: [
     BrowserModule,
